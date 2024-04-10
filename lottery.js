@@ -2,6 +2,8 @@ function findWinner()
 {
     let input = document.getElementById('mage-list').value;
 
+    alert('Here we go');
+
     if (input === '') 
     {
         alert('Provide some input!');
