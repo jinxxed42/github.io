@@ -2,7 +2,7 @@ function findWinner()
 {
     let input = document.getElementById('mage-list').value;
 
-    alert('Here we go');
+    //alert('Here we go');
 
     if (input === '') 
     {
@@ -41,7 +41,7 @@ function checkMage(mage, discount)
     if (splitByTab[1] === "ASCENDANT" || splitByTab[1] === "ERADICATION" || splitByTab[1] === "NETHER" ||
         splitByTab[1] === "PHANTASM" || splitByTab[1] === "VERDANT") 
     {
-        alert(splitByTab[1]);
+        //alert(splitByTab[1]);
     
         // Check Alliance / Status
         if (splitByTab[8] === "FH" || splitByTab[8] === "A" || splitByTab[8] === "X") return false;
