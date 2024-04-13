@@ -20,14 +20,22 @@
                 height: 100%;
                 resize: none; 
                 padding: 10px; 
-                font-size: inherit; 
+                font-size: inherit;
+                text-align: center;
             }
             .button {
                 text-align: center;
             }
             .winner {
-                margin: 0 auto;
                 width: 800px;
+                outline: none;
+                font-size: 16px;
+                box-sizing: border-box;
+                margin: 0 auto;
+            }
+            .winner textarea {                
+                width: 100%;
+                height: 100%;
                 resize: none;
                 text-align: center;
             }
@@ -45,7 +53,7 @@
         <br>
         <br>
         <div class="mage-list">
-            <textarea style="text-align: center;" type="text" id="mage-list" onclick="clearInput(this)">Paste ranking list.</textarea>
+            <textarea class="mage-list" id="mage-list" onclick="clearInput(this)">Paste ranking list.</textarea>
         </div>
         <br>
         <br>
@@ -54,7 +62,7 @@
         </div>
         <br>
         <br>
-        <div class="mage-list">
+        <div class="winner">
             <textarea class="winner" id="winner" onclick="clearInput(this)">Winner will be shown here.</textarea>
         </div>
         <script src="lottery.js"></script>
